@@ -1,0 +1,15 @@
+{
+  "name": "turbo-nascar-infinite",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "bun test",
+    "balance": "bun tests/report.ts",
+    "serve": "bun serve.ts"
+  },
+  "devDependencies": {
+    "playwright-core": "^1.60.0",
+    "three": "0.165.0"
+  }
+}
